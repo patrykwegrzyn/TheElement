@@ -7,9 +7,12 @@ Yet another javascript micro templating
 git clone
 
 ## Usage
-### The Element e
+### e( ) -  The Element.
 
 ```javascript
+
+e( selector, content, attributes ) ;
+
 /**
  * Represents a alement constructor.
  * @param {string} selector - tagName or tagName#someId.className
@@ -17,7 +20,6 @@ git clone
  * @param {object } element attributes.
  */
  
-e( selector, content, attributes ) ;
 
 e( "img.img-responsive", null, {
     "src": "image url", "alt": "Responsive image",
