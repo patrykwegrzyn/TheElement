@@ -1,6 +1,6 @@
 # The element and Friends
 
-Yet another javascript micro templating 
+Yet another javascript micro templating 'thing'
 
 ## Installation
 
