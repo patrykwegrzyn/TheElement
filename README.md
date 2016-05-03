@@ -37,6 +37,11 @@ function ListItem( value ) {
     return e( "li.list-group-item", value );
 }
 
+//BasicList
+var list = [ 'item 1', 'item 2', 'item 3', 'item 4' ];
+var basicList = ListGroup( list, ListItem );
+
+
 function Badge( value ) {
     return e( "span.badge", value );
 }
@@ -46,9 +51,6 @@ function ItemWithBadge( data ) {
         e( "span.badge", data.badge ), data.text
     ] );
 }
-//BasicList
-var list = [ 'item 1', 'item 2', 'item 3', 'item 4' ];
-var basicList = ListGroup( list, ListItem );
 
 //List with badges
 var list = [ { text: 'item 1', badge: 1 } , { text: 'item 2', badge: 2 } ];
