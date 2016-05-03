@@ -1,25 +1,20 @@
 # The element and Friends
 
-Yet another javascript micro templating 'thing'
+###Yet another javascript micro templating 'thing'
 
 ## Installation
-
-git clone
+```
+git clone https://github.com/patrykwegrzyn/TheElement
+```
 
 ## Usage
-### e( ) -  The Element.
-
-```javascript
-
-e( selector, content, attributes ) ;
-
-/**
- * Represents a alement constructor.
- * @param {string} selector - tagName or tagName#someId.className
- * @param {string | array | function } element content.
- * @param {object } element attributes.
- */
+###The Element - e( selector, content, attributes )
+Represents a alement constructor.
+- selector { string } selector - tagName or tagName#someId.className
+- content { string | array | function } element content.
+- attrbutes { object } element attributes.
  
+```javascript
 
 e( "img.img-responsive", null, {
     "src": "image url", "alt": "Responsive image",
