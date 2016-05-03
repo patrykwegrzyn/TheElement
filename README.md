@@ -29,7 +29,7 @@ e( "img.img-responsive", null, {
 ```
 
 
-### Example#1 - Lists
+### Lists
 ```javascript
 
 function ListGroup( data, listItem ) {
@@ -53,11 +53,11 @@ function ItemWithBadge( data ) {
 }
 //BasicList
 var list = [ 'item 1', 'item 2', 'item 3', 'item 4' ];
-var basicList = ListGroup( data, ListItem );
+var basicList = ListGroup( list, ListItem );
 
 //List with badges
 var list = [ { text: 'item 1', badge: 1 } , { text: 'item 2', badge: 2 } ];
-var listWithBadges = ListGroup( data, ItemWithBadge );
+var listWithBadges = ListGroup( list, ItemWithBadge );
 ```
 
 ## Contributing
