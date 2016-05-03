@@ -33,8 +33,8 @@ function ListGroup( data, listItem ) {
     );
 }
 
-function ListItem( value ) {
-    return e( "li.list-group-item", value );
+function ListItem( content ) {
+    return e( "li.list-group-item", content );
 }
 
 //BasicList
@@ -47,7 +47,7 @@ function Badge( value ) {
 }
 
 function ItemWithBadge( data ) {
-    return ListGroupItem( [
+    return ListItem( [
         e( "span.badge", data.badge ), data.text
     ] );
 }
