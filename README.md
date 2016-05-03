@@ -48,7 +48,7 @@ function Badge( value ) {
 
 function ItemWithBadge( data ) {
     return ListItem( [
-        e( "span.badge", data.badge ), data.text
+        Badge( data.badge ), data.text
     ] );
 }
 
