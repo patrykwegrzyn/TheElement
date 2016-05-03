@@ -19,9 +19,9 @@ git clone
  
 e( selector, content, attributes ) ;
 
-e( 'img.img-responsive', null, {
-    src: image url", alt: "Responsive image",
-    style: "padding:10px" 
+e( "img.img-responsive", null, {
+    "src": "image url", "alt": "Responsive image",
+    "style": "padding:10px"
 } );
 
 ```
