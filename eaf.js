@@ -63,6 +63,9 @@
         });
         return fragment;
     }
+    function patch() {
+        
+    }
     exports.e = e;
     exports.content = content;
     exports.patch = patch;
